@@ -1,5 +1,5 @@
 body{
-    background-image: url(/w1d1recipe/recipeImages/silverware.jpg);
+    background-image: url(recipeImages/silverware.jpg);
     color:#404040 ;
     /* background-color: white; */
     font-weight: 11;
@@ -26,7 +26,7 @@ a{
     list-style-type: none;
 }
 .listType{
-    list-style-image: url(/w1d1recipe/recipeImages/pie_icon.gif);
+    list-style-image: url(recipeImages/pie_icon.gif);
 }
 abbr{
     text-decoration: underline;
