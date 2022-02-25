@@ -1,12 +1,9 @@
 body{
     background-image: url(/w1d1recipe/recipeImages/silverware.jpg);
     color:#404040 ;
-    background-color: white;
+    /* background-color: white; */
     font-weight: 11;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#htmlimg, #cssimg {
-    float: right;
 }
 
 .title, .subTitle{
@@ -50,7 +47,7 @@ color: #A4A400;
 }
 .column {
     float: left;
-    width: 30%;
+    width: 20%;
 }
 .validator{
     float:left;
