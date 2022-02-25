@@ -1,0 +1,61 @@
+body{
+    background-image: url(/w1d1recipe/recipeImages/silverware.jpg);
+    color:#404040 ;
+    background-color: white;
+    font-weight: 11;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#htmlimg, #cssimg {
+    float: right;
+}
+
+.title, .subTitle{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title{
+    text-align: center;
+    font-weight: 22;
+}
+.subTitle{
+    text-align: left;
+    font-weight: 18;
+}
+a{
+    color: #A4A400;
+}
+.procedure{
+    list-style-type: none;
+}
+.listType{
+    list-style-image: url(/w1d1recipe/recipeImages/pie_icon.gif);
+}
+abbr{
+    text-decoration: underline;
+}
+article{
+    background-color: #FFFFA8 ;
+    font-style: italic;
+}
+.links{
+color: #A4A400;
+}
+#cake {
+    text-decoration:line-through;
+}
+.copyright{
+   text-align: right;
+    font-family: monospace;
+}
+.column {
+    float: left;
+    width: 30%;
+}
+.validator{
+    float:left;
+}
+
+
+  
+ 
