@@ -12,7 +12,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
-    color: white;
+    color: rgb(218, 201, 201);
 }
 P::first-letter{
     font-size: larger;
