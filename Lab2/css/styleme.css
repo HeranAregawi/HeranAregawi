@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(62, 133, 129);
+    color: #ffffff;
+    /* border: 1px;
+    margin: 25px 50px 75px 100px; */
+
+}
+.title{
+    color: black;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    color: white;
+}
+P::first-letter{
+    font-size: larger;
+}
+.subTitle{
+    font-size: 1.3em;
+    color: black;
+    font-family:cursive;
+    
+}
+p strong{
+    color: rgb(235, 220, 16);
+}
+a{
+    color:rgb(235, 220, 16);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+.movieStatus{
+    font-style: italic;
+}
+.image{
+    width: 220px;
+    height: 170px;
+}
+
+.hobbies{
+font-family: 'Courier New', Courier, monospace;
+}
+.w3cimage{
+    width: 100px;
+    height:50px;
+}
