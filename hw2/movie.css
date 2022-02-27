@@ -45,17 +45,13 @@ main{
 }
 .ratingandreviews{
     width: 550px;
-    position: absolute;
-    
-  
+    position: absolute;  
 }
 .overviewimage, dl{
     margin-left: 550px;
     background-color: #A2B964;
     margin-bottom: 0pt;
-    margin-top: 0pt;
-  
-   
+    margin-top: 0pt;  
 }
 .review1{
     width: 47%;
@@ -103,23 +99,19 @@ dl, .overeviewfooter{
    padding: 0.1px;
    text-align: center;
    font-weight: bold;
-   margin-top: -12px;
-   
-   
-  
+   margin-top: -12px;  
 }
 footer{
     float: right;
     opacity: 50%;
     margin-top: -70px;
-}.reviewandreviewer{
-    margin-bottom: 10pt;
 }
-
+.reviewandreviewer{
+    margin-bottom: 20pt;
+}
 dt{
     margin-top: 10pt;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 dl{
     vertical-align: text-top;

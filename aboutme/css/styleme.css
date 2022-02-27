@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(62, 133, 129);
+    background-color: rgb(108, 160, 157);
     color: #ffffff;
     /* border: 1px;
     margin: 25px 50px 75px 100px; */
@@ -11,9 +11,7 @@ body{
     font-size: 3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p {
-    color: rgb(218, 201, 201);
-}
+
 P::first-letter{
     font-size: larger;
 }
@@ -23,11 +21,11 @@ P::first-letter{
     font-family:cursive;
     
 }
-p strong{
+p strong, a{
     color: rgb(235, 220, 16);
 }
 a{
-    color:rgb(235, 220, 16);
+    
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }

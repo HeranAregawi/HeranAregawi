@@ -1,0 +1,54 @@
+.navbar-customclass {
+    background-color: rgb(79, 167, 226);
+    
+}
+.navbar-nav {
+    margin-left: auto;
+    color: white;
+    
+} 
+.header{
+    margin-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(88, 82, 82);
+    font-weight:300;
+}
+
+.navbar-brand{
+    color: white;
+    padding-right:30px;
+    font-weight: 300;
+    font-size: x-large;
+    margin-left: 0pt;
+
+}
+.vl {
+    border-left: 1px solid white;
+    height: 40px;
+    
+  }
+.navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right: 20px;
+    
+  }
+.buttons{
+    float: right;
+    padding-top: 40px;
+    
+}
+.form-group{
+    margin-left: 100px;
+}
+.container{
+    padding: 10px;
+}
+label{
+    color: rgb(88, 82, 82);
+}
+ 
+
