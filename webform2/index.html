@@ -66,7 +66,7 @@
     </div>
     <div class="col-sm-6">
       <label for="supplier">Supplier</label>
-      <select class="form-select" aria-label="Default select example">
+      <select id="select" class="form-select" aria-label="Default select example">
         <option selected>Select a supplier</option>
         <option value="1">Cisco</option>
         <option value="2">Dell</option>
@@ -92,10 +92,18 @@
   <div class="buttons">
     <button type="button" class="btn btn-outline-dark me-md-5">Reset</button>
     <button type="button" class="btn btn-outline-danger me-md-5">Cancel</button>
-    <button type="submit" class="btn btn-outline-info ">Add Product</button>
+    <button id="mybtn" type="submit" class="btn btn-outline-info ">Add Product</button>
   </div>
 </div>
 </form>
+<script> 
+  function display(){
+window.alert( document.getElementById("productnumber").value +" "+document.getElementById("name").value+" " +document.getElementById("unitprice").value+" "+ document.getElementById("quantity").value+" " +document.getElementById("select").value+" " +document.getElementById("datesupplied").value);
+}
+var btn = document.getElementById("mybtn");
+  // add event listener for the button, for action "click"
+  btn.addEventListener("click", display);
+</script>
     
 
 
