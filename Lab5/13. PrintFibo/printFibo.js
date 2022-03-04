@@ -1,16 +1,16 @@
-// const printFibo = function(l, a, b){
-//     let n1 = a, n2 = b, fibonacci;
+function printFibo(l, a, b){
+    let n1 = a, n2 = b, fibonacci;
 
-//     for(let i = 1 ; i <= l ; i++){
-//         console.log(n1);
-//         fibonacci = n1 + n2;
-//         n1 = n2;
-//         n2 = fibonacci;
-//     }
-// }
-// printFibo(2, 0, 1);
+    for(let i = 1 ; i <= l ; i++){
+        console.log(n1);
+        fibonacci = n1 + n2;
+        n1 = n2;
+        n2 = fibonacci;
+    }
+}
+printFibo(1, 0, 1);
 
-//
+// Alternative
 
 function printFibo(n , a , b){
     if(n == 0 ) console.log("");
@@ -20,15 +20,13 @@ function printFibo(n , a , b){
         let s = a + " , " + b ;
         let currA = a;
         let currB = b;
-        for(let i = 2; i < n ; i++){
+        for(let i = 2; i <= n ; i++){
             let nextFibo = currA + currB;
             currA = currB;
             currB = nextFibo;
             s += ", " + nextFibo;
         }
         console.log(s);
-
-    
     }
 }
 printFibo(6, 0, 1);

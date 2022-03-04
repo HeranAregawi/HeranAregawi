@@ -2,7 +2,7 @@ function filterLongWord(w, leng){
     let longWords = [];
     for(let i = 0 ; i < w.length ; i++){
         if(w[i].length > leng){
-            longWords.push(w[i])
+            longWords.push(w[i]);
         }
     }
     return longWords;

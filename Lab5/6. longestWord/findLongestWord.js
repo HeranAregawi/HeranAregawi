@@ -1,6 +1,6 @@
 function findeLongestWord(w){
     let maxLength = 0;
-    for(let i = 0 ; i < w.length ; i++){
+    for(let i = 0 ; i   < w.length ; i++){
         if(w[i].length > maxLength)
         maxLength = w[i].length;
     }
